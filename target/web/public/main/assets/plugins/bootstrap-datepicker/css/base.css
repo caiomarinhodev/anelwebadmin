@@ -1,0 +1,245 @@
+
+body {
+    color: #5F6061;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: "nimbus-sans", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+}
+    body.home {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+h1 {
+    color: #1E1F20;
+    font-size: 2.3em;
+    font-weight: 400;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+h2 {
+    color: #35ABA0;
+    font-size: 1.9em;
+    font-weight: 600;
+    margin: 40px 0;
+    padding: 0;
+}
+h3 {
+    color: #1E1F20;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 40px 0 20px 0;
+    padding: 0;
+}
+h4 {
+    color: #1E1F20;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin: 40px 0 10px 0;
+    padding: 0;
+}
+
+p {
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.lastp {
+    margin-bottom: 60px;
+}
+
+.timestamp {
+    opacity: 0.5;
+    font-size: 15px;
+    margin: 0; }
+
+strong {
+    font-weight: 400;
+}
+
+form {
+    padding: 0;
+    display: block;
+    min-height: 50px;
+}
+a {
+    color: #ff6c00;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff5400;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid rgba(100,100,100,0.2);
+    height: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.intro {
+    font-size: 1.3em;
+    margin: 30px 0;
+    line-height: 1.4em;
+    color: #1E1F20;
+}
+
+.contentline {
+    margin: 50px 0 50px 0;
+    border-bottom: 1px solid rgba(232,235,238,1.0);
+}
+
+.noscroll {
+    overflow: hidden;
+    height: 100%;
+}
+
+
+
+
+#faq, #help {
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+#content {
+    font-size: 24px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+}
+
+#error {
+    font-size: 24px;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+}
+    .return_to_homepage {
+        font-size: 18px;
+    }
+
+
+
+#footer {
+    border-top: 1px solid #1B1B1B;
+    background-color: #000;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    color: #898989;
+    font-size: 16px;
+}
+#footer a {
+    color:#35ABA0;
+    display: inline-block;
+    font-weight: 400;
+    margin: auto 20px auto 0;
+}
+
+
+#faq_index {
+
+}
+    #faq_index ul {
+        list-style-type: none;
+        padding-left: 15px;
+        text-indent: 0;
+    }
+    #faq_index li {
+        padding: 0;
+    }
+
+    #faq_index li:before {
+        content: "• ";
+        color: #b1b1b1;
+        margin-left: -15px;
+        padding-right: 5px;
+    }
+    #faq_index a {
+        color: #898989;
+        line-height: 22px;
+    }
+    #faq_index a:hover {
+        color: #ff5400;
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+
+    #faq a.index {
+        color: #a1a1a1;
+        font-size: 15px;
+        display: block;
+        line-height: 20px;
+        padding: 20px 0;
+        transition: all 0.2s ease;
+    }
+    #faq a.index:before {
+        content: "⇡ ";
+        font-size: 15px;
+        line-height: 12px;
+        margin-right: 2px;
+        color: #c6c6c6;
+        transition: all 0.2s ease;
+    }
+        #faq a.index:hover, #faq a.index:hover:before {
+            color: #ff5400;
+            text-decoration: none;
+        }
+
+
+
+
+
+@media screen and (max-width: 550px) {
+    .logo {
+        display: block;
+        font-size: 36px;
+        font-weight: 200;
+        text-indent: -200%;
+        background: url(../img/logo_green.png) no-repeat;
+        background-size: 40px;
+        width: 40px;
+        height: 43px;
+        margin: 0 0 30px 0;
+        padding: 0;
+    }
+    h2 {
+        font-size: 36px;
+    }
+
+    #footer {
+        margin: 0;
+        width: 100%;
+        padding: 0 0 40px 0;
+    }
+    #footer a {
+        background: #000;
+        display: block;
+        width: 100px;
+        line-height: 45px;
+        margin: 0;
+        border-top: 1px solid #1B1B1B;
+    }
+
+    #footer span {
+        padding: 20px 0 0 0;
+        display: block;
+    }
+}

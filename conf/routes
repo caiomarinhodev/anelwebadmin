@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# WEB SERVICE
+GET         /users/etnaruatserlena/:code                       controllers.Application.getUsers(code: Integer)
+GET         /users/:id/etnaruatserlena/:code                   controllers.Application.getUser(id: Long, code: Integer)
+GET         /users/decrements/:id/etnaruatserlena/:code        controllers.Application.decrements(id: Long, code:Integer)
+
+# PAGES
+GET         /                                                  controllers.Application.index()
+GET         /app                                               controllers.Application.dashboard()
+GET         /transactions                                      controllers.Application.transactions()
+GET         /edit/:id                                          controllers.Application.renderEdituser(id: Long)
+GET         /deactive/:id/                                     controllers.Application.deactive(id:Long)
+GET         /logout                                            controllers.Application.logout()
+
+POST        /login                                             controllers.Application.login()
+POST        /incrementa                                        controllers.Application.incrementa()
+POST        /add/usuario                                       controllers.Application.addUsuario()
+
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file                                      controllers.Assets.at(path="/public/assets/", file)
+GET         /deactive/assets/*file                             controllers.Assets.at(path="/public/assets/", file)
+GET         /add/assets/*file                                  controllers.Assets.at(path="/public/assets/", file)
+GET         /edit/assets/*file                                 controllers.Assets.at(path="/public/assets/", file)
+

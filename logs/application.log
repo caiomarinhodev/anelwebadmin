@@ -1,0 +1,21 @@
+2015-07-23 19:04:39,145 - [INFO] - from play in pool-4-thread-1 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-07-23 19:05:29,976 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:h2:mem:play;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
+
+2015-07-23 19:05:30,253 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:mem:play
+
+2015-07-23 19:05:35,030 - [INFO] - from application in play-internal-execution-context-1 
+inicializada...
+
+2015-07-23 19:05:35,423 - [INFO] - from application in play-internal-execution-context-1 
+Inserindo dados no BD.
+
+2015-07-23 19:05:35,443 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-07-23 19:08:04,335 - [INFO] - from application in pool-4-thread-1 
+desligada...
+

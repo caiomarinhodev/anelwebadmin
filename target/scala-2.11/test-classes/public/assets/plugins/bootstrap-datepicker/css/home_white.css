@@ -1,0 +1,323 @@
+section {
+    display: block;
+    padding: 60px 20% 60px 20%;
+}
+
+section p {
+
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 400;
+    color: #4A4A4A;
+    margin: 20px 0;
+    line-height: normal;
+    margin-top: 20%;
+}
+h2 {
+    font-size: 44px;
+    font-weight: 400;
+    color: #4A4A4A;
+    margin: 20px 0;
+    line-height: normal;
+}
+h3 {
+    margin: 20px 0;
+    line-height: 1;
+}
+
+p {
+    font-size: 20px;
+    color: #9D9D9D;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    width: 40%;
+}
+
+
+section#intro  { height: 670px; position: relative;}
+	#intro h1 {margin-left: 50%;}
+    #intro p { font-size: 30px; max-width: 450px; margin-left: 50%}
+    #intro img { display: block; height: 750px; bottom:0; position: absolute;}
+
+
+section#club,
+section#ios8 { background-color: rgb(252,252,252); text-align: center; padding-bottom: 0;}
+    #club p,
+    #ios8 p { max-width: 550px; margin-left: auto; margin-right: auto;}
+
+    #club img { width: 762px; margin: 0; padding: 0; margin-bottom: -6px; }
+    #ios8 img { margin-left: 120px; width: 917px; }
+
+
+section#daily30 { background: url('../img/mock1.jpg') right 40% center no-repeat; background-size: cover; height: 670px; }
+    #daily30 p {color: #fff; font-size: 48px; line-height: 1.5; }
+
+section#daily40 { background: url('../img/mock3.jpg') right 40% center no-repeat; background-size: cover; height: 670px; }
+#daily40 p { color: #fff; font-size: 48px; line-height: 1.5; margin-top: 20%;}
+
+
+section#ios8 {}
+
+
+section#humandata,
+section#press {
+    background: #000;
+    color: rgb(187,187,187);
+}
+
+section#humandata {
+    height: 400px;
+    background: black url('../img/map.gif') right center no-repeat;
+    background-size: 70%;
+    padding-top: 140px;
+}
+
+    #humandata h2 { color: #fff; }
+    #press p,
+    #humandata p { color: rgb(187,187,187); }
+
+section#press {
+    border-top: 1px solid #1B1B1B;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 90px;
+}
+    #press h2 { font-size: 24px; color: rgb(131,131,131); margin-bottom: 5px;}
+    #press ul { list-style: none; display: inline-block; }
+    #press li { display: inline-block; width: 110px; }
+    #press img { opacity: .3; width: 100%;}
+    #press img:hover { opacity: .8; }
+
+
+
+#downloadbutton {
+    color: #35ABA0;
+    background: url('../img/btnx.png') no-repeat;
+    background-size: 200px;
+    background-position: center;
+    height: 70px;
+    display: block;
+    float: left;
+    width: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 50%;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 300;
+    text-indent: -500%;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+} #downloadbutton:hover {
+}
+
+
+#citiesbutton {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+
+    border: 2px solid #FF6500;
+    color: #FF6500;
+    margin-top: 30px;
+    padding: 22px 20px 22px 20px;
+    border-radius: 50px;
+
+    width: 300px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+} #citiesbutton:hover {
+    background: #FF6500;
+    color: #0D0D0D;
+}
+/* Aqui é a div sobre */
+#aboutus{
+      margin-top: 50px;
+ }
+/* IMAGEM dentro da div sobre*/
+#circular1 {
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(http://i.imgur.com/GNlNtzx.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#circular2 {
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    background: url(http://i.imgur.com/09pszdp.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#circular3 {
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    background: url(http://i.imgur.com/RktT8oH.jpg) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#circular4 {
+    margin-bottom: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url(http://i.imgur.com/YGFJvDZ.png) no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* Posicao da imagem dentro da div sobre */
+.about-grids div div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* title div sobre*/
+.about-grids div h4{
+    text-align: center;
+}
+/* comment div sobre */
+.about-grids div p{
+    text-align: center;
+    font-size: 12pt;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+   section { padding: 60px 10% 60px 15%; }
+}
+
+@media screen and (max-width: 1300px) {
+   section { padding: 60px 10% 60px 12%; }
+
+        #intro img { }
+}
+
+@media screen and (max-width: 1024px) {
+    section { padding: 60px 10% 60px 10%; }
+
+    section#intro { height: 500px; }
+        section#intro h1 { font-size: 40px;}
+        section#intro p { width: 400px; font-size: 24px;}
+        #intro img { height: 500px;}
+
+    section#ios8 {}
+        #ios8 img { width: 600px; }
+
+
+    #club img { height: 620px;}
+
+    section#press {}
+        #press h2 { font-size: 18px; }
+        #press li { width: 100px;}
+        #press img { width: 100%;}
+
+    section#daily30 p {
+        font-size: 40px;
+        width: 400px;
+        margin-top: 200px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    section { padding: 30px 20px;}
+    section h1 { font-size: 28px; margin-top: 90px; }
+    section h2 { font-size: 22px; }
+    section p { font-size: 16px; width: auto;}
+
+    #homeLogo { position: absolute; top: 35px; left: 50%; margin-left: -21px;}
+    section#intro { height: auto; text-align: center; padding-bottom: 0; }
+        section#intro img { display: block; margin: 0 auto 0 auto; padding: 0; width: 70%; height: auto; right: auto; position: relative; }
+		section#intro h1 {margin-left:0;}
+        section#intro p { font-size: 18px; width: auto; margin-bottom: 20px; margin-left: 0; }
+
+    #club img { width: 90%; height: auto;}
+
+    section#daily30 { background-position: right 14% bottom; height: 580px;}
+        section#daily30 p { text-align: center; margin: 20px 0; width: auto; padding:0; font-size: 20px;}
+
+    section#ios8 {  }
+        section#ios8 img {margin: 0px; width: 100%; height: auto;}
+
+    section#humandata { height: 280px; padding: 30px 0; text-align: center; background-size: 200%; background-position: right 80% bottom 10%; }
+    section#press { padding-top: 20px; padding-bottom: 0; text-align: center; margin: 0;}
+        section#press h2 { margin: 0; padding: 0;}
+        section#press ul { margin: 20px 0; padding: 0;}
+        section#press li { margin: 0; padding: 0; width: 70px;}
+
+    #buttons {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #downloadbutton {
+        margin: 0 auto;
+        display: inline-block;
+        vertical-align:top;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    #best2014 {
+        margin: 0 auto;
+        display:inline-block;
+        vertical-align:top;
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    #citiesbutton {
+        font-size: 18px;
+        padding: 16px 14px 16px 14px;
+        width: 180px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+        background-color: rgba(0,0,0,.5);
+    }
+}

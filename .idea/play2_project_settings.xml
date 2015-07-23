@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Play2ExcludedModulesSettings">
+    <option name="INFO">
+      <map>
+        <entry key="anel">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="version" value="2.3.8" />
+              <option name="sourceDir" value="C:\Users\Caio\Downloads\anelwebdev\salaorocha-master\conf" />
+              <option name="confDir" value="C:\Users\Caio\Downloads\anelwebdev\salaorocha-master\app" />
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.8.jar" />
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="/C:/Users/Caio/Downloads/anelwebdev/salaorocha-master" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="salaorocha">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="version" value="2.3.8" />
+              <option name="sourceDir" value="C:\Users\Caio\Downloads\anelwebdev\salaorocha-master\conf" />
+              <option name="confDir" value="C:\Users\Caio\Downloads\anelwebdev\salaorocha-master\app" />
+              <option name="routesImports">
+                <list>
+                  <option value="controllers.Assets.Asset" />
+                  <option value="play.libs.F" />
+                </list>
+              </option>
+              <option name="uri" value="/C:/Users/Caio/Downloads/anelwebdev/salaorocha-master" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+        <entry key="salaorocha-master">
+          <value>
+            <ProjectSettingsEntry>
+              <option name="playDistrPath" value="$USER_HOME$/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.3.8.jar" />
+            </ProjectSettingsEntry>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
